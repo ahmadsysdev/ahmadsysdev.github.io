@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Ahmad Sysdev Chronicles</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Ahmad Sysdev Chronicles</description>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2025 00:32:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bantuan</title>
+      <link>http://localhost:1313/tags/bantuan/</link>
+      <pubDate>Tue, 21 Jan 2025 00:32:15 +0800</pubDate>
+      <guid>http://localhost:1313/tags/bantuan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bantuan Kerajaan</title>
+      <link>http://localhost:1313/tags/bantuan-kerajaan/</link>
+      <pubDate>Tue, 21 Jan 2025 00:32:15 +0800</pubDate>
+      <guid>http://localhost:1313/tags/bantuan-kerajaan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semakan</title>
+      <link>http://localhost:1313/tags/semakan/</link>
+      <pubDate>Tue, 21 Jan 2025 00:32:15 +0800</pubDate>
+      <guid>http://localhost:1313/tags/semakan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>STR 2025</title>
+      <link>http://localhost:1313/tags/str-2025/</link>
+      <pubDate>Tue, 21 Jan 2025 00:32:15 +0800</pubDate>
+      <guid>http://localhost:1313/tags/str-2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tarikh Bayaran</title>
+      <link>http://localhost:1313/tags/tarikh-bayaran/</link>
+      <pubDate>Tue, 21 Jan 2025 00:32:15 +0800</pubDate>
+      <guid>http://localhost:1313/tags/tarikh-bayaran/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

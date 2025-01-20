@@ -1,0 +1,49 @@
+baseURL: https://ahmadsysdev.github.io/
+languageCode: en-us
+title: Ahmad Sysdev Chronicles
+theme: ["PaperMod"]
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+params:
+  env: production
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: Discover, Learn, and Explore
+    Content: >
+      Hi, I'm Muhammad Nuh, 19-year-old tech enthusiast from Sabah. This website is where I share:
+
+      - 📝 Blogs about life, tech, and random thoughts
+      
+      - 📚 Tutorials to help you learn and grow
+
+      - 📰 News and updates that catch my eye
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: categories/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 30
+    - identifiers: about
+      name: About
+      url: about/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: archives/
+
+output:
+  home:
+    - HTML
+    - RSS
+    - JSON
