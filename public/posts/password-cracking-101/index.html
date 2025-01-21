@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How Hackers Crack Passwords (And How You Can Stop Them) | Ahmad Sysdev Chronicles</title>
+<meta name="keywords" content="Password Cracking, Ethical Hacking, Online Security">
+<meta name="description" content="Password Cracking 101: Understand and Prevent It
+Introduction
+Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.
+
+1. What Is Password Cracking?
+Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/password-cracking-101/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/password-cracking-101/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/posts/password-cracking-101/">
+  <meta property="og:site_name" content="Ahmad Sysdev Chronicles">
+  <meta property="og:title" content="How Hackers Crack Passwords (And How You Can Stop Them)">
+  <meta property="og:description" content="Password Cracking 101: Understand and Prevent It Introduction Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.
+1. What Is Password Cracking? Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-21T09:52:10+08:00">
+    <meta property="article:modified_time" content="2025-01-21T09:52:10+08:00">
+    <meta property="article:tag" content="Password Cracking">
+    <meta property="article:tag" content="Ethical Hacking">
+    <meta property="article:tag" content="Online Security">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How Hackers Crack Passwords (And How You Can Stop Them)">
+<meta name="twitter:description" content="Password Cracking 101: Understand and Prevent It
+Introduction
+Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.
+
+1. What Is Password Cracking?
+Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How Hackers Crack Passwords (And How You Can Stop Them)",
+      "item": "http://localhost:1313/posts/password-cracking-101/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Hackers Crack Passwords (And How You Can Stop Them)",
+  "name": "How Hackers Crack Passwords (And How You Can Stop Them)",
+  "description": "Password Cracking 101: Understand and Prevent It Introduction Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.\n1. What Is Password Cracking? Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.\n",
+  "keywords": [
+    "Password Cracking", "Ethical Hacking", "Online Security"
+  ],
+  "articleBody": "Password Cracking 101: Understand and Prevent It Introduction Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.\n1. What Is Password Cracking? Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.\n2. Common Methods Used by Attackers Brute Force Attack Tries every possible combination until the password is found. Example Tools: Hydra, John the Ripper. Prevention: Use long, complex passwords. Dictionary Attack Uses a list of common passwords (e.g., “123456” or “password”). Prevention: Avoid predictable passwords and use unique combinations. Phishing Tricks users into entering passwords on fake websites or through fake emails. Prevention: Always verify links and sources before entering credentials. Credential Stuffing Leverages leaked username-password pairs from past data breaches. Prevention: Use unique passwords for every account. 3. Tools Used for Testing (Ethical Hacking Only) John the Ripper Open-source tool to test password strengths. Ideal for controlled environments. Hashcat Powerful tool for testing hashed passwords. Uses GPU acceleration for faster processing. Note: Only use these tools on test accounts or in lab environments with explicit permission.\n4. Real-Life Examples Weak Passwords Many people use passwords like “123456” or “qwerty”. Solution: Use a strong password (e.g., P@ssw0rd2025!). Reused Passwords Reusing the same password across accounts increases risk. Solution: Use a password manager to create and store unique passwords. Social Engineering Attackers trick people into revealing sensitive information. Solution: Always verify requests before sharing any information. 5. How to Prevent Password Cracking Use Strong Passwords: Minimum of 12 characters with a mix of uppercase, lowercase, numbers, and symbols. Enable Two-Factor Authentication (2FA): Adds a second layer of protection beyond your password. Avoid Reusing Passwords: A unique password for every account ensures better security. Monitor for Breaches: Use tools like Have I Been Pwned to check if your email or password has been compromised. Stay Informed: Learn about common phishing techniques and stay alert. Conclusion Password cracking is a powerful reminder of why cybersecurity matters. By understanding these methods, we can take steps to secure our accounts and reduce the risk of being compromised.\nLet’s Hear From You Have you taken steps to secure your passwords? What tools or strategies have you found helpful? Share your thoughts in the comments below!\nThis post is for educational purposes only. Always practice ethical hacking within legal boundaries.\n",
+  "wordCount" : "420",
+  "inLanguage": "en",
+  "datePublished": "2025-01-21T09:52:10+08:00",
+  "dateModified": "2025-01-21T09:52:10+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/password-cracking-101/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ahmad Sysdev Chronicles",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ahmad Sysdev Chronicles (Alt + H)">Ahmad Sysdev Chronicles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How Hackers Crack Passwords (And How You Can Stop Them)
+    </h1>
+    <div class="post-meta"><span title='2025-01-21 09:52:10 +0800 +08'>January 21, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="password-cracking-101-understand-and-prevent-it"><strong>Password Cracking 101: Understand and Prevent It</strong><a hidden class="anchor" aria-hidden="true" href="#password-cracking-101-understand-and-prevent-it">#</a></h1>
+<h3 id="introduction"><strong>Introduction</strong><a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h3>
+<p>Password cracking is a critical topic in cybersecurity. Understanding how attackers work is essential for protecting yourself online. This post covers the basics of password cracking, common methods, and ways to secure your accounts.</p>
+<hr>
+<h3 id="1-what-is-password-cracking"><strong>1. What Is Password Cracking?</strong><a hidden class="anchor" aria-hidden="true" href="#1-what-is-password-cracking">#</a></h3>
+<p>Password cracking is the process of guessing or recovering passwords to access accounts or systems. While attackers use these methods for malicious purposes, ethical hackers study them to improve security.</p>
+<hr>
+<h3 id="2-common-methods-used-by-attackers"><strong>2. Common Methods Used by Attackers</strong><a hidden class="anchor" aria-hidden="true" href="#2-common-methods-used-by-attackers">#</a></h3>
+<h4 id="brute-force-attack"><strong>Brute Force Attack</strong><a hidden class="anchor" aria-hidden="true" href="#brute-force-attack">#</a></h4>
+<ul>
+<li>Tries every possible combination until the password is found.</li>
+<li><strong>Example Tools</strong>: Hydra, John the Ripper.</li>
+<li><strong>Prevention</strong>: Use long, complex passwords.</li>
+</ul>
+<h4 id="dictionary-attack"><strong>Dictionary Attack</strong><a hidden class="anchor" aria-hidden="true" href="#dictionary-attack">#</a></h4>
+<ul>
+<li>Uses a list of common passwords (e.g., &ldquo;123456&rdquo; or &ldquo;password&rdquo;).</li>
+<li><strong>Prevention</strong>: Avoid predictable passwords and use unique combinations.</li>
+</ul>
+<h4 id="phishing"><strong>Phishing</strong><a hidden class="anchor" aria-hidden="true" href="#phishing">#</a></h4>
+<ul>
+<li>Tricks users into entering passwords on fake websites or through fake emails.</li>
+<li><strong>Prevention</strong>: Always verify links and sources before entering credentials.</li>
+</ul>
+<h4 id="credential-stuffing"><strong>Credential Stuffing</strong><a hidden class="anchor" aria-hidden="true" href="#credential-stuffing">#</a></h4>
+<ul>
+<li>Leverages leaked username-password pairs from past data breaches.</li>
+<li><strong>Prevention</strong>: Use unique passwords for every account.</li>
+</ul>
+<hr>
+<h3 id="3-tools-used-for-testing-ethical-hacking-only"><strong>3. Tools Used for Testing (Ethical Hacking Only)</strong><a hidden class="anchor" aria-hidden="true" href="#3-tools-used-for-testing-ethical-hacking-only">#</a></h3>
+<h4 id="john-the-ripper"><strong>John the Ripper</strong><a hidden class="anchor" aria-hidden="true" href="#john-the-ripper">#</a></h4>
+<ul>
+<li>Open-source tool to test password strengths.</li>
+<li>Ideal for controlled environments.</li>
+</ul>
+<h4 id="hashcat"><strong>Hashcat</strong><a hidden class="anchor" aria-hidden="true" href="#hashcat">#</a></h4>
+<ul>
+<li>Powerful tool for testing hashed passwords.</li>
+<li>Uses GPU acceleration for faster processing.</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: Only use these tools on test accounts or in lab environments with explicit permission.</p>
+</blockquote>
+<hr>
+<h3 id="4-real-life-examples"><strong>4. Real-Life Examples</strong><a hidden class="anchor" aria-hidden="true" href="#4-real-life-examples">#</a></h3>
+<h4 id="weak-passwords"><strong>Weak Passwords</strong><a hidden class="anchor" aria-hidden="true" href="#weak-passwords">#</a></h4>
+<ul>
+<li>Many people use passwords like &ldquo;123456&rdquo; or &ldquo;qwerty&rdquo;.</li>
+<li><em>Solution</em>: Use a strong password (e.g., <code>P@ssw0rd2025!</code>).</li>
+</ul>
+<h4 id="reused-passwords"><strong>Reused Passwords</strong><a hidden class="anchor" aria-hidden="true" href="#reused-passwords">#</a></h4>
+<ul>
+<li>Reusing the same password across accounts increases risk.</li>
+<li><em>Solution</em>: Use a password manager to create and store unique passwords.</li>
+</ul>
+<h4 id="social-engineering"><strong>Social Engineering</strong><a hidden class="anchor" aria-hidden="true" href="#social-engineering">#</a></h4>
+<ul>
+<li>Attackers trick people into revealing sensitive information.</li>
+<li><em>Solution</em>: Always verify requests before sharing any information.</li>
+</ul>
+<hr>
+<h3 id="5-how-to-prevent-password-cracking"><strong>5. How to Prevent Password Cracking</strong><a hidden class="anchor" aria-hidden="true" href="#5-how-to-prevent-password-cracking">#</a></h3>
+<ol>
+<li><strong>Use Strong Passwords</strong>:
+<ul>
+<li>Minimum of 12 characters with a mix of uppercase, lowercase, numbers, and symbols.</li>
+</ul>
+</li>
+<li><strong>Enable Two-Factor Authentication (2FA)</strong>:
+<ul>
+<li>Adds a second layer of protection beyond your password.</li>
+</ul>
+</li>
+<li><strong>Avoid Reusing Passwords</strong>:
+<ul>
+<li>A unique password for every account ensures better security.</li>
+</ul>
+</li>
+<li><strong>Monitor for Breaches</strong>:
+<ul>
+<li>Use tools like <a href="https://haveibeenpwned.com/">Have I Been Pwned</a> to check if your email or password has been compromised.</li>
+</ul>
+</li>
+<li><strong>Stay Informed</strong>:
+<ul>
+<li>Learn about common phishing techniques and stay alert.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="conclusion"><strong>Conclusion</strong><a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h3>
+<p>Password cracking is a powerful reminder of why cybersecurity matters. By understanding these methods, we can take steps to secure our accounts and reduce the risk of being compromised.</p>
+<hr>
+<h3 id="lets-hear-from-you"><strong>Let’s Hear From You</strong><a hidden class="anchor" aria-hidden="true" href="#lets-hear-from-you">#</a></h3>
+<p>Have you taken steps to secure your passwords? What tools or strategies have you found helpful? Share your thoughts in the comments below!</p>
+<hr>
+<p><em>This post is for educational purposes only. Always practice ethical hacking within legal boundaries.</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/password-cracking/">Password Cracking</a></li>
+      <li><a href="http://localhost:1313/tags/ethical-hacking/">Ethical Hacking</a></li>
+      <li><a href="http://localhost:1313/tags/online-security/">Online Security</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/str-2025-fasa-1/">
+    <span class="title">Next »</span>
+    <br>
+    <span>STR 2025 Tarikh Bayar Fasa 1: Semak Status Layak atau Tidak</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Ahmad Sysdev Chronicles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

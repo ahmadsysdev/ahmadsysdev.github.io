@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Ahmad Sysdev Chronicles</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 00:32:15 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 09:52:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ethical Hacking</title>
+      <link>http://localhost:1313/tags/ethical-hacking/</link>
+      <pubDate>Tue, 21 Jan 2025 09:52:10 +0800</pubDate>
+      <guid>http://localhost:1313/tags/ethical-hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Security</title>
+      <link>http://localhost:1313/tags/online-security/</link>
+      <pubDate>Tue, 21 Jan 2025 09:52:10 +0800</pubDate>
+      <guid>http://localhost:1313/tags/online-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Password Cracking</title>
+      <link>http://localhost:1313/tags/password-cracking/</link>
+      <pubDate>Tue, 21 Jan 2025 09:52:10 +0800</pubDate>
+      <guid>http://localhost:1313/tags/password-cracking/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bantuan</title>
       <link>http://localhost:1313/tags/bantuan/</link>

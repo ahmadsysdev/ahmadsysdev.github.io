@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Ahmad Sysdev Chronicles</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 00:32:15 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 09:52:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/categories/cybersecurity/</link>
+      <pubDate>Tue, 21 Jan 2025 09:52:10 +0800</pubDate>
+      <guid>http://localhost:1313/categories/cybersecurity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>News</title>
       <link>http://localhost:1313/categories/news/</link>
