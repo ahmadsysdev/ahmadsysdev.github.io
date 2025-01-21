@@ -13,17 +13,40 @@ mainsections: ["posts"]
 
 params:
   env: production
+  title: Ahmad Sysdev Chronicles
+  description: Writing is my escape, where I pour out my feelings, untangle my stress, and let the chaos in my mind find its rhythm.
+  keywords:
+    - Blog
+    - Portfolio
+    - News
+  author: Me
+  showReadingTime: true
+  comments: true
   ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
   homeInfoParams:
     Title: Discover, Learn, and Explore
-    Content: >
-      Hi, I'm Muhammad Nuh, 19-year-old tech enthusiast from Sabah. This website is where I share:
+    Content: Writing is my escape, where I pour out my feelings, untangle my stress, and let the chaos in my mind find its rhythm.
+  
+  socialIcons:
+    - name: github
+      url: https://github.com/ahmadsysdev
+    - name: telegram
+      url: https://t.me/ahmadsysdev
+    - name: email
+      url: mailto:ahmadsysdev@proton.me
 
-      - 📝 Blogs about life, tech, and random thoughts
-      
-      - 📚 Tutorials to help you learn and grow
-
-      - 📰 News and updates that catch my eye
 menu:
   main:
     - identifier: categories
