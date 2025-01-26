@@ -5,11 +5,32 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-01-26T17:07:41+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/free-internet/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/free-internet-hack-guide/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hacking/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/networking/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-01-26T17:07:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-01-21T09:52:10+08:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/v2ray/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/xray-core/</loc>
+    <lastmod>2025-01-26T17:07:41+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cybersecurity/</loc>
     <lastmod>2025-01-21T09:52:10+08:00</lastmod>
@@ -24,9 +45,6 @@
     <lastmod>2025-01-21T09:52:10+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/password-cracking/</loc>
-    <lastmod>2025-01-21T09:52:10+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-21T09:52:10+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bantuan/</loc>
