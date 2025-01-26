@@ -2,7 +2,7 @@
 date: '2025-01-21T00:32:15+08:00'
 title: 'STR 2025 Tarikh Bayar Fasa 1: Semak Status Layak atau Tidak'
 tags: ["STR 2025", "bantuan", "semakan", "tarikh bayaran", "bantuan kerajaan"]
-categories: ["news"]
+categories: ["News"]
 ---
 
 # **STR 2025 TARIKH BAYAR FASA 1: SEMAK STATUS LAYAK ATAU TIDAK**

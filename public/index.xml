@@ -4,10 +4,18 @@
     <title>Ahmad Sysdev Chronicles</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Ahmad Sysdev Chronicles</description>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 09:52:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 17:07:41 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Internet Hack Guide</title>
+      <link>http://localhost:1313/posts/free-internet-hack-guide/</link>
+      <pubDate>Sun, 26 Jan 2025 17:07:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/free-internet-hack-guide/</guid>
+      <description>&lt;h1 id=&#34;the-secret-to-free-internet-access&#34;&gt;The Secret to Free Internet Access&lt;/h1&gt;
+&lt;p&gt;Let me guess. You’ve just run out of internet quota, your SIM card is as dead as your social life, and your ISP is practically whispering in your ear: &lt;em&gt;“Go touch some grass, you loser.”&lt;/em&gt; But here’s the thing. Why touch grass when you can touch the &lt;strong&gt;world wide web&lt;/strong&gt;? Today, I’ll show you how to hack your own internet and get back online &lt;strong&gt;for free.&lt;/strong&gt; No more begging your parents for reload money, no more refreshing the same page out of despair. Let’s get into it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How Hackers Crack Passwords (And How You Can Stop Them)</title>
       <link>http://localhost:1313/posts/password-cracking-101/</link>
