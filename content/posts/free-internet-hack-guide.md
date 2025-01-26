@@ -1,6 +1,7 @@
 ---
 date: '2025-01-26T17:07:41+08:00'
 title: 'Free Internet Hack Guide'
+description: Ran out of quota and your SIM is expired? Who cares? Here’s how to hack your internet like a broke college student no data, no problem. Oh, and don’t worry, I’ll Rickroll you first, because why not make your day worse?
 categories:
     - Networking
 tags:
